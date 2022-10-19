@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    <header class="header">
+            <nav class="navbar-container">
+                <a href="#" class="navbar-link-icon-text">
+                    Property
+            
+                </a>
+                <div class="menu-toggle">
+                    <i class="menu-toogle-icon fa-solid fa-bars"></i>
+                </div>
+                <ul class="navbar-menu-list">
+                    <li class="nav-menu-item"><a class="nav-menu-item-link nav-menu-item-link--active" href="">Home</a></li>
+                    <li class="nav-menu-item">
+                        <a class="nav-menu-item-link" href="">
+                            Properties
+                            <i class="property-down-icon fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="nav-sub-menu-first-list">
+                            <li class="nav-sub-menu-first-item"><a class="nav-sub-menu-first-item-link">Buy property</a></li>
+                            <li class="nav-sub-menu-first-item"><a class="nav-sub-menu-first-item-link">Sell property</a></li>
+                            <li class="nav-sub-menu-first-item">
+                                <a class="nav-sub-menu-first-item-link">
+                                    Dropdown
+                                    <i class="right-arround fa-solid fa-angle-right"></i>
+                                </a>
+                                <ul class="nav-sub-menu-second-list">
+                                    <li class="nav-sub-menu-second-item"><a href="#" class="nav-sub-menu-second-item-link">Sub Menu One</a></li>
+                                    <li class="nav-sub-menu-second-item"><a href="#" class="nav-sub-menu-second-item-link">Sub Menu Two</a></li>
+                                    <li class="nav-sub-menu-second-item"><a href ="#" class="nav-sub-menu-second-item-link">Sub Menu Three</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-menu-item"><a class="nav-menu-item-link" href="">Services</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-item-link" href="">About</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-item-link" href="">Contact us</a></li>
+                </ul>
+            </nav>
+            <div class="side-bar-box">
+                <div class="close-side-bar-box">
+                    <i class="close-icon fa-solid fa-xmark"></i>
+                </div>
+
+                <ul class="side-bar-menu">
+                    <li class="side-bar-menu-item">
+                        <a href="#" class="side-bar-menu-item-link">Home</a>
+                    </li>
+                    <li class="side-bar-menu-item">
+
+                        <a href="#" class="side-bar-menu-item-link">Properties</a>
+                    </li>
+                    <li class="side-bar-menu-item">
+
+                        <a href="#" class="side-bar-menu-item-link">Services</a>
+                    </li>
+                    <li class="side-bar-menu-item">
+
+                        <a href="#" class="side-bar-menu-item-link">About</a>
+
+                    </li>
+                    <li class="side-bar-menu-item">
+                        <a href="#" class="side-bar-menu-item-link">Contact us</a>
+
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <div class="main">
+        <section class="hero">
+            
+            <div class="hero-slider-box">
+                <div class="hero-slider-item hero-image-1">
+                </div>
+                <div class="hero-slider-item hero-image-2">
+                </div>
+                <div class="hero-slider-item hero-image-3">
+                </div>
+                <div class="hero-slider-item hero-image-1">
+                </div>
+                <div class="hero-slider-item hero-image-2">
+                </div>
+                <div class="hero-slider-item hero-image-3">
+                </div>
+            </div>
+            
+            <div data-aos="fade-up" data-aos-duration="1000" class="hero-contain-box">
+                <h1 class="hero-heading">Easiest way to find your dream home</h1>
+                <div class="hero-search-box">
+                    <input class="hero-input" placeholder="Your ZIP code or City. e.g. New York" type="text"/>
+                    <a href="#" class="search-btn primary-btn">Search</a>
+                </div>
+            </div>
+            
+            
+        </section>
+        <section class="popular-property">
+            <div class="popular-prop-container">
+                <div class="popular-prop-heading">
+                    <h2 class="popular-prop-title">Popular Properties</h2>
+                    <a class="popular-prop-heading-icon primary-btn" href="#">View all properties</a>
+                </div>
+                <div class="popular-prop-content">
+                    <div class="popular-prop-item">
+                        <div class="popular-prop-item-img">
+                            <img src="./image/prop_1.jpg"/>
+                            <div class="popular-prop-info">
+                                <h2 class="popular-prop-price">$1,291,000</h2>
+                                <p class="popular-prop-text">5232 California Fake, Ave</p>
+                                <h2 class="popular-prop-addr">California, USA</h2>
+                                <div class="popular-prop-quantity">
+                                    <div class="popular-prop-quantity-item">
+                                        <i class="popular-prop-quantity-icon fa-solid fa-bed"></i>
+                                        <span>2 beds</span>
+                                    </div>
+                                    <div class="popular-prop-quantity-item">
+                                        <i class="popular-prop-quantity-icon fa-solid fa-bath"></i>
+                                        <span>2 baths</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="popular-prop-info-icon primary-btn">See detail</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popular-prop-item">
+                        <div class="popular-prop-item-img">
+                            <img src="./image/prop_2.jpg"/>
+                        </div>
+                        <div class="popular-prop-info">
+                            <h2 class="popular-prop-price">$1,291,000</h2>
+                            <p class="popular-prop-text">5232 California Fake, Ave. 21BC</p>
+                            <h2 class="popular-prop-addr">California, USA</h2>
+                            <div class="popular-prop-quantity">
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bed"></i>
+                                    <span>2 beds</span>
+                                </div>
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bath"></i>
+                                    <span>2 baths</span>
+                                </div>
+                            </div>
+                            <a href="#" class="popular-prop-info-icon primary-btn">See detail</a>
+                        </div>
+                    </div>
+                    <div class="popular-prop-item">
+                        <div class="popular-prop-item-img">
+                            <img src="./image/prop_3.jpg"/>
+                        </div>
+                        <div class="popular-prop-info">
+                            <h2 class="popular-prop-price">$1,291,000</h2>
+                            <p class="popular-prop-text">5232 California Fake, Ave. 21BC</p>
+                            <h2 class="popular-prop-addr">California, USA</h2>
+                            <div class="popular-prop-quantity">
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bed"></i>
+                                    <span>2 beds</span>
+                                </div>
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bath"></i>
+                                    <span>2 baths</span>
+                                </div>
+                            </div>
+                            <a href="#" class="popular-prop-info-icon primary-btn">See detail</a>
+                        </div>
+                    </div>
+                    <div class="popular-prop-item">
+                        <div class="popular-prop-item-img">
+                            <img src="./image/prop_4.jpg"/>
+                        </div>
+                        <div class="popular-prop-info">
+                            <h2 class="popular-prop-price">$1,291,000</h2>
+                            <p class="popular-prop-text">5232 California Fake, Ave. 21BC</p>
+                            <h2 class="popular-prop-addr">California, USA</h2>
+                            <div class="popular-prop-quantity">
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bed"></i>
+                                    <span>2 beds</span>
+                                </div>
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bath"></i>
+                                    <span>2 baths</span>
+                                </div>
+                            </div>
+                            <a href="#" class="popular-prop-info-icon primary-btn">See detail</a>
+                        </div>
+                    </div>
+                    <div class="popular-prop-item">
+                        <div class="popular-prop-item-img">
+                            <img src="./image/prop_5.jpg"/>
+                        </div>
+                        <div class="popular-prop-info">
+                            <h2 class="popular-prop-price">$1,291,000</h2>
+                            <p class="popular-prop-text">5232 California Fake, Ave. 21BC</p>
+                            <h2 class="popular-prop-addr">California, USA</h2>
+                            <div class="popular-prop-quantity">
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bed"></i>
+                                    <span>2 beds</span>
+                                </div>
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bath"></i>
+                                    <span>2 baths</span>
+                                </div>
+                            </div>
+                            <a href="#" class="popular-prop-info-icon primary-btn">See detail</a>
+                        </div>
+                    </div>
+                    <div class="popular-prop-item">
+                        <div class="popular-prop-item-img">
+                            <img src="./image/prop_6.jpg"/>
+                        </div>
+                        <div class="popular-prop-info">
+                            <h2 class="popular-prop-price">$1,291,000</h2>
+                            <p class="popular-prop-text">5232 California Fake, Ave. 21BC</p>
+                            <h2 class="popular-prop-addr">California, USA</h2>
+                            <div class="popular-prop-quantity">
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bed"></i>
+                                    <span>2 beds</span>
+                                </div>
+                                <div class="popular-prop-quantity-item">
+                                    <i class="popular-prop-quantity-icon fa-solid fa-bath"></i>
+                                    <span>2 baths</span>
+                                </div>
+                            </div>
+                            <a href="#" class="popular-prop-info-icon primary-btn">See detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+            <div class="feature-container">
+                <div class="row feature-list">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 feature-item-box">
+                        <div class="feature-item" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="feature-img-box"><img class="feature-img" srcset="./image/feature-house.png 2x"/></div>
+                            <h3 class="feature-title">Our Properties</h3>
+                            <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                            <a href="#" class="feature-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 feature-item-box">
+                        <div class="feature-item" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="feature-img-box"><img class="feature-img" srcset="./image/feature-building.png 2x"/></div>
+                            <h3 class="feature-title">Property for Sale</h3>
+                            <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                            <a href="#" class="feature-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 feature-item-box">
+                        <div class="feature-item" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="feature-img-box"><img class="feature-img" srcset="./image/feature-agent.png 2x"/></div>
+                            <h3 class="feature-title">Real Estate Agent</h3>
+                            <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                            <a href="#" class="feature-link">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 feature-item-box">
+                        <div class="feature-item" data-aos="fade-up" data-aos-duration="2500">
+                            <div class="feature-img-box"><img class="feature-img" srcset="./image/feature-house-sale.png 2x"/></div>
+                            <h3 class="feature-title">House for Sale</h3>
+                            <p class="feature-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus.</p>
+                            <a href="#" class="feature-link">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="feedback-container">
+                <div class="feedback-heading">
+                    <h2 class="feedback-title">Customer Says</h2>
+                </div>
+                <div class="feedback-list">
+                    <div class="feedback-item">
+                        <div class="feedback-img-user">
+                            <img src="./image/person_1-min.jpg" alt="">
+                        </div>
+                        <div class="feedback-rating-box">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-content">
+                            <h3 class="feedback-user-name">Cameron Webster</h3>
+                            <p class="feedback-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                            <p class="feedback-user-occupation">Designer, Co-founder</p>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="feedback-img-user">
+                            <img src="./image/person_2-min.jpg" alt="">
+                        </div>
+                        <div class="feedback-rating-box">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-content">
+                            <h3 class="feedback-user-name">Dave Smith</h3>
+                            <p class="feedback-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                            <p class="feedback-user-occupation">Designer, Co-founder</p>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="feedback-img-user">
+                            <img src="./image/person_3-min.jpg" alt="">
+                        </div>
+                        <div class="feedback-rating-box">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-content">
+                            <h3 class="feedback-user-name">Mike Houston</h3>
+                            <p class="feedback-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                            <p class="feedback-user-occupation">Designer, Co-founder</p>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="feedback-img-user">
+                            <img src="./image/person_4-min.jpg" alt="">
+                        </div>
+                        <div class="feedback-rating-box">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="feedback-content">
+                            <h3 class="feedback-user-name">James Smith</h3>
+                            <p class="feedback-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+                            <p class="feedback-user-occupation">Designer, Co-founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advertise">
+            <div class="advertise-container">
+                <div class="advertise-heading">
+                    <h1 class="advertise-title">Let's find home that's perfect for you</h1>
+                    <p class="advertise-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit.</p>
+                </div>
+
+                <div class="row advertise-content">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 advertise-info">
+                        <div class="advertise-info-item">
+                            <div class="advertise-info-icon-box">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="advertise-info-content">
+                                <h3 class="advertise-info-title">2M Properties</h3>
+                                <p class="advertise-desc advertise-info-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
+                            </div>
+                        </div>
+                        <div class="advertise-info-item">
+                            <div class="advertise-info-icon-box">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="advertise-info-content">
+                                <h3 class="advertise-info-title">Top Rated Agents</h3>
+                                <p class="advertise-desc advertise-info-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
+                            </div>
+                        </div>
+                        <div class="advertise-info-item">
+                            <div class="advertise-info-icon-box">
+                                <i class="fa-sharp fa-solid fa-shield"></i>
+                            </div>
+                            <div class="advertise-info-content">
+                                <h3 class="advertise-info-title">Legit Properties</h3>
+                                <p class="advertise-desc advertise-info-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 advertise-img-box">
+                        <img class="advertise-img" src="./image/hero_bg_3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row statistic-container">
+                <div  class="col-12 col-sm-6 col-md-6 col-lg-3 statistic-item" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="statistic-number counter" data-val="3298">0000</h1>
+                    <p class="statistic-text"># of Buy Properties</p>
+                </div>
+                <div  class="col-12 col-sm-6 col-md-6 col-lg-3 statistic-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h1 class="statistic-number counter" data-val="2181">0000</h1>
+                    <p class="statistic-text"># of Sell Properties</p>
+                </div>
+                <div  class="col-12 col-sm-6 col-md-6 col-lg-3 statistic-item" data-aos="fade-up" data-aos-duration="2000">
+                    <h1 class="statistic-number counter" data-val="9316">0000</h1>
+                    <p class="statistic-text"># of All Properties</p>
+                </div>
+                <div  class="col-12 col-sm-6 col-md-6 col-lg-3 statistic-item" data-aos="fade-up" data-aos-duration="2500">
+                    <h1 class="statistic-number counter" data-val="7191">0000</h1>
+                    <p class="statistic-text"># of Agents</p>
+                </div>
+            </div>
+        </section>
+        <section class="invite">
+            <div class="invite-container" data-aos="fade-up" data-aos-duration="1000">
+                <h2 class="invite-title">Be a part of our growing real state agents</h2>
+                <a href="#" class="invite-btn primary-btn">Apply for Real Estate agent</a>
+            </div>
+        </section>
+        <section class="agent">
+            <div class="agent-container">
+                <div class="agent-heading">
+                    <h2 class="agent-title">Our Agents</h2>
+                    <p class="agent-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+                </div>
+                <div class="row gy-5 agent-content">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 agent-item">
+                        <div class="agent-img-box">
+                            <img src="./image/person_1-min.jpg" alt="" class="agent-img">
+                        </div>
+                        <div class="agent-info">
+                            <h3 class="agent-username"><a class="agent-username-link">James Doe</a></h3>
+                            <p class="agent-user-desc">Real Estate Agent</p>
+                            <p class="agent-user-introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
+                            <div class="agent-user-contact">
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    
+                                        <a href="#" class="agent-user-contact-link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 agent-item">
+                        <div class="agent-img-box">
+                            <img src="./image/person_2-min.jpg" alt="" class="agent-img">
+                        </div>
+                        <div class="agent-info">
+                            <h3 class="agent-username"><a class="agent-username-link">James Doe</a></h3>
+                            <p class="agent-user-desc">Real Estate Agent</p>
+                            <p class="agent-user-introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
+                            <div class="agent-user-contact">
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    
+                                        <a href="#" class="agent-user-contact-link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 agent-item">
+                        <div class="agent-img-box">
+                            <img src="./image/person_3-min.jpg" alt="" class="agent-img">
+                        </div>
+                        <div class="agent-info">
+                            <h3 class="agent-username"><a class="agent-username-link">James Doe</a></h3>
+                            <p class="agent-user-desc">Real Estate Agent</p>
+                            <p class="agent-user-introduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?</p>
+                            <div class="agent-user-contact">
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    
+                                        <a href="#" class="agent-user-contact-link">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                                <div class="agent-user-icon-box">
+                                    <a href="#" class="agent-user-contact-link">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row footer-body">
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-contact">
+                    <h4 class="footer-contact-title">CONTACT</h4>
+                    <p class="footer-contact-addr">43 Raymouth Rd. Baltemoer, London 3910</p>
+                    <ul class="footer-contact-list">
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-item-link">+1(123)-456-7890</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-item-link">+1(123)-456-7890</a>
+                        </li>
+                        <li class="footer-contact-item">
+                            <a href="" class="footer-contact-item-link">info@mydomain.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-sources">
+                    <h4 class="footer-sources-title">SOURCES</h4>
+                    <div class="footer-sources-content">
+                        <ul class="footer-sources-list">
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">About us</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Services</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Vision</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Mission</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Terms</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Privacy</a>
+                            </li>
+                        </ul>
+                        <ul class="footer-sources-list">
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Partners</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Business</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Careers</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Blog</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">FAQ</a>
+                            </li>
+                            <li class="footer-sources-item">
+                                <a href="#" class="footer-sources-link">Creative</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-links">
+                    <h4 class="footer-links-title">LINKS</h4>
+                    <ul class="footer-links-list">
+                        <li class="footer-links-item">
+                            <a href="#" class="footer-lists-item-link">Our Vision</a>
+                        </li>
+                        <li class="footer-links-item">
+                            <a href="#" class="footer-lists-item-link">About us</a>
+                        </li>
+                        <li class="footer-links-item">
+                            <a href="#" class="footer-lists-item-link">Contact us</a>
+                        </li>
+                    </ul>
+                    <div class="footer-link-contact-social">
+                        <div class="footer-link-contact-box">
+                            <a href="#" class="footer-link-contact-link">
+                                <i class="footer-contact-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="footer-link-contact-box">
+                            <a href="#" class="footer-link-contact-link">
+                                <i class="footer-contact-icon fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                        <div class="footer-link-contact-box">
+                            <a href="#" class="footer-link-contact-link">
+                                <i class="footer-contact-icon fa-brands fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="footer-link-contact-box">
+                            <a href="#" class="footer-link-contact-link">
+                                <i class="footer-contact-icon fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="footer-link-contact-box">
+                            <a href="#" class="footer-link-contact-link">
+                                <i class="footer-contact-icon fa-brands fa-pinterest"></i>
+                            </a>
+                        </div>
+                        <div class="footer-link-contact-box">
+                            <a href="#" class="footer-link-contact-link">
+                                <i class="footer-contact-icon fa-regular fa-basketball"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyrights-box">
+                <p class="footer-copyrights-text">Copyright ©2022. All Rights Reserved. — Designed with love by <a href="https://untree.co/" target="_blank">Untree.co</a> and covered by <a href="https://www.instagram.com/hkdarealest/" target="_blank">hkdarealest</a></p>
+            </div>
+        </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

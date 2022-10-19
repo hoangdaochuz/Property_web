@@ -1,0 +1,22 @@
+body{
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: 14px;
+    overflow-x: hidden;
+}
+
+.primary-btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #005555;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    transform: translateY(0);
+    transition: all 0.3s linear;
+}
+.primary-btn:hover{
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 2px 5px 0px rgb(84, 84, 84);
+}

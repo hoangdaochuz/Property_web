@@ -1,0 +1,22 @@
+
+.invite-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.invite-title{
+    padding-bottom: 18px;
+    color: rgb(0, 32, 74);
+}   
+
+@media screen and (max-width: 500px) {
+    .invite-title{
+        max-width: 300px;
+        text-align: center;
+    }
+}

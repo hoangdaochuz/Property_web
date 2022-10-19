@@ -1,0 +1,128 @@
+.feedback{
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+
+.feedback-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.feedback-heading{
+    padding-bottom: 42px;
+}
+.feedback-title{
+    font-size: 32px;
+    color:rgb(0, 32, 74);
+    font-weight: 500;
+    line-height: 38.4px; 
+}
+.feedback-list{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback-img-user{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 24px;
+}
+.feedback-img-user img{
+    border-radius: 50%;
+}
+.feedback-rating-box{
+    padding-bottom: 3px;
+}
+.feedback-rating-box i{
+    color: #ffc107;
+}
+.feedback-user-occupation,
+.feedback-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 16px;
+    max-width: 400px;
+}
+
+.feedback-user-name{
+    font-size: 20px;
+    color: rgb(0, 32, 74);
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.feedback-user-occupation{
+    color: rgba(0, 0, 0, 0.5);
+}
+.feedback-container .slick-next,
+.feedback-container .slick-prev{
+    position: absolute;
+    // bottom: 65px;
+    top: -85px;
+    right: 80px;
+    border: none;
+    padding: 7px 20px;
+    background-color: rgba(0, 32, 74, 0.1);;
+    color: #00204a;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.feedback-container .slick-next{
+    right: 0;
+}
+
+.slick-next:hover,
+.slick-prev:hover{
+    background-color: #00204a;
+    color: #fff;
+}
+
+.feedback-container .slick-dots{
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    width: 64px;
+    margin: 0 auto;
+    left: 0%;
+    right: 0%;
+    li{
+        margin: 0 4px;
+        button {
+            background: #ccc;
+            border: none;
+            height: 8px;
+            width: 8px;
+            overflow: hidden;
+            border-radius: 50%;
+            font-size: 0;
+        }
+        &.slick-active{
+            button{
+                background: $primary-color;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .feedback-container{
+        padding: 0 24px;
+    }
+    .feedback-user-occupation, .feedback-text{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .feedback-user-occupation, .feedback-text{
+        max-width: 500px;
+    }
+}
